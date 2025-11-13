@@ -23,6 +23,18 @@
     "tecnologias": ["HTML", "CSS", "JavaScript"],
     "imagem": "agenda-preview.jpg",
     "destaque": true
+    },
+    {
+    "id": 3,
+    "nome": "WellFix - Site Corporativo",
+    "nome_en": "WellFix - Corporate Website",
+    "descricao_pt": "Site responsivo para empresa fictícia WellFix. Desenvolvido com Bootstrap, incluindo carousel, navbar responsiva e formulário de contato.",
+    "descricao_en": "Responsive website for fictional company WellFix. Developed with Bootstrap, including carousel, responsive navbar and contact form.",
+    "link_site": "https://projeto-3-wellfix.vercel.app/",
+    "link_github": "https://github.com/MlksWell/projeto-3-wellfix", 
+    "tecnologias": ["HTML", "Bootstrap", "CSS", "JavaScript"],
+    "imagem": "wellfix-preview.jpg",
+    "destaque": true
     }
 ]
 }
