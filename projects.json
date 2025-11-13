@@ -1,0 +1,28 @@
+{
+"projects": [
+    {
+    "id": 1,
+    "nome": "Lista de Tarefas",
+    "nome_en": "To-Do List",
+    "descricao_pt": "Aplicativo de lista de tarefas com JavaScript puro. Adicione, remova e gerencie suas tarefas diárias com uma interface simples e intuitiva.",
+    "descricao_en": "To-do list application with pure JavaScript. Add, remove and manage your daily tasks with a simple and intuitive interface.",
+    "link_site": "https://lista-de-tarefas-seven-steel.vercel.app/",
+    "link_github": "https://github.com/MlksWell/lista-de-tarefas",
+    "tecnologias": ["HTML", "CSS", "JavaScript"],
+    "imagem": "todo-list-preview.jpg",
+    "destaque": true
+    },
+    {
+    "id": 2,
+    "nome": "Agenda Digital",
+    "nome_en": "Digital Agenda", 
+    "descricao_pt": "Sistema de agenda digital para organização pessoal. Gerencie seus compromissos e tarefas de forma eficiente.",
+    "descricao_en": "Digital agenda system for personal organization. Manage your appointments and tasks efficiently.",
+    "link_site": "https://agenda-seven-alpha.vercel.app/",
+    "link_github": "https://github.com/MlksWell/agenda",
+    "tecnologias": ["HTML", "CSS", "JavaScript"],
+    "imagem": "agenda-preview.jpg",
+    "destaque": true
+    }
+]
+}
