@@ -31,17 +31,6 @@ body {
     padding: 0 20px;
 }
 
-/* Header */
-.header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    z-index: 1000;
-    border-bottom: 1px solid var(--border);
-}
-
 .nav {
     display: flex;
     justify-content: space-between;
@@ -91,13 +80,6 @@ body {
     background: var(--primary-color);
     color: white;
     border-color: var(--primary-color);
-}
-
-/* Hero Section */
-.hero {
-    padding: 120px 2rem 80px;
-    text-align: center;
-    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
 }
 
 .hero-content h1 {
@@ -457,4 +439,28 @@ body {
         width: 18px;
         height: 18px;
     }
+}
+
+/* CSS simplificado com Bootstrap */
+.hero {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Ajuste de padding para compensar header fixo do Bootstrap */
+body {
+    padding-top: 76px; /* Altura aproximada do header */
+}
+
+/* Ajuste para mobile */
+@media (max-width: 768px) {
+    body {
+        padding-top: 56px; /* Header menor no mobile */
+    }
+}
+
+.highlight {
+    color: var(--primary-color);
 }
